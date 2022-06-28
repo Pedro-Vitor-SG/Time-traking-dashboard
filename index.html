@@ -25,14 +25,18 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+
+    <script src="/script.js" defer></script>
   </head>
   <body>
     <main class="main">
       <section class="profile">
         <div class="profile_img">
           <img src="./images/image-jeremy.png" alt="Imagem de Perfil" />
-          <p>Report for</p>
-          <h1>Jeremy Robson</h1>
+          <div>
+            <p>Report for</p>
+            <h1>Jeremy Robson</h1>
+          </div>
         </div>
 
         <div class="filter">
@@ -44,28 +48,93 @@
 
       <section class="cards">
         <section class="card work">
-          <div class="card-icon">
-            <img src="./images/icon-work.svg" alt="">
-          </div>
+          <div class="card-icon"></div>
           <div class="card-info">
-            <p>
+            <p class="flex align-items-center justify-space-between">
               Work <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
             </p>
-            <h2>32hrs</h2>
-            <p class="prev">Last Week - <span>36hrs</span></p>
+            <div>
+              <h2>32hrs</h2>
+              <p class="prev">Last Week - <span>36hrs</span></p>
+            </div>
           </div>
         </section>
 
-    
+        <section class="card play">
+          <div class="card-icon"></div>
+          <div class="card-info">
+            <p class="flex align-items-center justify-space-between">
+              Play <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </p>
+            <div>
+              <h2>10hrs</h2>
+              <p class="prev">Last Week - <span>8hrs</span></p>
+            </div>
+          </div>
+        </section>
 
+        <section class="card study">
+          <div class="card-icon"></div>
+          <div class="card-info">
+            <p class="flex align-items-center justify-space-between">
+              Study <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </p>
+            <div>
+              <h2>4hrs</h2>
+              <p class="prev">Last Week - <span>7hrs</span></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card exercise">
+          <div class="card-icon"></div>
+          <div class="card-info">
+            <p class="flex align-items-center justify-space-between">
+              Exercise
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </p>
+            <div>
+              <h2>4hrs</h2>
+              <p class="prev">Last Week - <span>5hrs</span></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card social">
+          <div class="card-icon"></div>
+          <div class="card-info">
+            <p class="flex align-items-center justify-space-between">
+              Social
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </p>
+            <div>
+              <h2>5hrs</h2>
+              <p class="prev">Last Week - <span>10hrs</span></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="card self-care">
+          <div class="card-icon"></div>
+          <div class="card-info">
+            <p class="flex align-items-center justify-space-between">
+              <span>Self Care</span>
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </p>
+            <div>
+              <h2>2hrs</h2>
+              <p class="prev">Last Week - <span>2hrs</span></p>
+            </div>
+          </div>
+        </section>
       </section>
     </main>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+    </div> -->
   </body>
 </html>
