@@ -88,16 +88,18 @@ body {
     padding-left: 1.5rem;
 }
 
-.filter a {
-    display: block;
-    text-decoration: none;
-    transition: .2s;
-    margin-bottom: 1rem;
-    color: var(--pale-blue);
-}
 
-.filter a:hover {
-    color: #fff;
+.filter button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--desatured-blue);
+    font-size: 16px;
+    transition: .2s;
+}
+.filter button:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .cards {
