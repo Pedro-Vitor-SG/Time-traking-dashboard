@@ -96,6 +96,9 @@ body {
     color: var(--desatured-blue);
     font-size: 16px;
     transition: .2s;
+
+    display: block;
+    margin-bottom: 1rem;
 }
 .filter button:hover {
     color: white;
@@ -211,7 +214,7 @@ body {
         padding-right: 1.5rem;
     }
 
-    .filter a {
+    .filter button {
         display: initial;
         margin-bottom: .5rem;
     }
